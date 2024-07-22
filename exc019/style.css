@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* em html é id = em css é #;
+   em html é class = em css é .
+   quando usar id ? não usar para mais de um elemento,
+   class pode ser usado para mais elementos inclusive niveis diferentes e posso usar duas class e usa id e class*/
+
+body{
+    background-color: #89cf1f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #355702;
+}
+h1#principal{
+    text-align: center;
+    background-color: #0a0a0a;
+    color: #89cf1f;
+}
+h2{
+    color: #5f9b05;
+}
+.basico{
+    color: #5f9b05;
+}
+
+.avancado{
+    color: #e72b2b;
+}
+.titulo{
+    background-color: #e72b2b;
+    color: #89cf1f;
+}
