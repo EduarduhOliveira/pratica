@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+}
+
+header{
+    background-color: black;
+    color: white;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    background-color: white;
+    align-items: center;
+}
+main > p{
+    width: 400px;
+    height: 400px;
+}
+#joaninha{
+    background-image: url(/imagens/background001.jpg);
+}
+#livro{
+    background-image: url(/imagens/background002.jpg);
+}
+footer{
+    background-color: black;
+    color: white;
+}
